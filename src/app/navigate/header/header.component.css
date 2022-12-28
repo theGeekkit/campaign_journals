@@ -1,0 +1,31 @@
+header {
+  background-image: url("https://i.ibb.co/0nyBdyj/pexels-pixabay-235985.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: black;
+  background-color: transparent;
+}
+button
+ {
+  background-color: transparent;
+  color: black;
+  height: 45px;
+  width: 55px;
+  cursor: pointer;
+ }
+mat-toolbar {
+  background-color: transparent;
+  padding: 40px;
+  margin-top: 20px;
+  display: flex;
+}
+h1 {
+  font-size: 120px;
+
+}
+mat-icon {
+  justify-content: right;
+  align-items: flex-end;
+}
