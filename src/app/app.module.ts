@@ -8,6 +8,8 @@ import { HeaderComponent } from './navigate/header/header.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { BriarheartComponent } from './briarheart/briarheart.component';
+import { UserModule } from './user/user.module';
+
 
 @NgModule({
   declarations: [
@@ -21,6 +23,7 @@ import { BriarheartComponent } from './briarheart/briarheart.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatIconModule,
+    UserModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
