@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DialogueService } from '../dialogue.service';
 
 @Component({
   selector: 'app-modal',
@@ -8,18 +9,19 @@ import { Component, OnInit } from '@angular/core';
 export class ModalComponent implements OnInit {
 
 constructor() {
-  var modal = document.getElementById('id01');
+  const modal = document.getElementById('id01');
   // Get the modal
 
   // When the user clicks anywhere outside of the modal, close it
-  window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
+  // window.onclick = function(event) {
+  // if (event.target == modal) {
+  //   modal.style.display = "none";
+  // }}
 }
+ngOnInit(): void {
+}
+
   }
 
-  ngOnInit(): void {
-  }
 
-}
+
